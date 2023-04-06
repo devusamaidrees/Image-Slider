@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slide">
+            <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg">
+            <p class="slide-number">1/4</p>
+        </div>
+        <div class="slide">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-zyPf3vAchVIG4KialEph31TvXyKOAgNQ96X5OPZ&s">
+            <p class="slide-number">2/4</p>
+        </div>
+        <div class="slide">
+            <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=">
+            <p class="slide-number">3/4</p>
+        </div>
+        <div class="slide"> 
+            <img src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg">
+            <p class="slide-number">4/4</p>
+        </div>
+        <span class="arrow left" onclick=controller(-1)>&lt; </span>
+        <span class="arrow right" onclick=controller(1)>&#62; </span>
+        
+        <button class="btn btn_1" onclick=dots_controller(0)></button>
+        <button class="btn btn_2" onclick=dots_controller(1)></button>
+        <button class="btn btn_3" onclick=dots_controller(2)></button>
+        <button class="btn btn_4" onclick=dots_controller(3)></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
