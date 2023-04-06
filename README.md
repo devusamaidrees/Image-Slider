@@ -17,4 +17,4 @@ Open the index.html file in your preferred web browser to view the slideshow.
 
 <li>Navigation buttons are created using `button` elements with a class of `btn` and a unique class for each button (`btn_1`, `btn_2`, etc.). The left and right arrow buttons are created using `span` elements with a class of `arrow` and unique classes for each arrow (`left` and `right`, respectively).
 
-<ol>Styling for the slideshow is provided by the `style.css` file
+<li>Styling for the slideshow is provided by the `style.css` file
