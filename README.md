@@ -7,9 +7,6 @@ To use this slideshow, follow these steps:
 Download the files **index.html**, **style.css**, and **script.js**.
 Place these files in the same directory.
 Open the index.html file in your preferred web browser to view the slideshow.
-# Usage
+# How it Works
 The **slideshow** function takes a slide number as a parameter and displays that slide while hiding all other slides. It also sets the background color of the corresponding dot to black.
-
-The **controller** function takes a parameter x which represents the number of slides to move forwards or backwards. It then calls the slideshow function with the new slide index.
-
-The **dots_controller** function takes a dot index as a parameter and calls the slideshow function with the corresponding slide index.
+The slideshow is controlled by two functions in the **script.js** file. The **controller** function moves the slideshow forward or backward by updating the slide_index variable and calling the slideshow function. The **dots_controller** function allows users to jump to a specific slide by updating the slide_index variable and calling the slideshow function.
